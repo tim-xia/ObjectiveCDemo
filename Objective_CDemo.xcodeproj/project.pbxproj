@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8D434D0F21966BDB00D4CE01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D434D0E21966BDB00D4CE01 /* main.m */; };
 		8D434D1621966F6400D4CE01 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D434D1521966F6400D4CE01 /* MyClass.m */; };
+		8D434D202196955100D4CE01 /* MyClass+CategoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D434D1F2196955100D4CE01 /* MyClass+CategoryTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		8D434D0E21966BDB00D4CE01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D434D1521966F6400D4CE01 /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		8D434D1721966F8D00D4CE01 /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		8D434D1E2196955100D4CE01 /* MyClass+CategoryTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyClass+CategoryTest.h"; sourceTree = "<group>"; };
+		8D434D1F2196955100D4CE01 /* MyClass+CategoryTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MyClass+CategoryTest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				8D434D0E21966BDB00D4CE01 /* main.m */,
 				8D434D1521966F6400D4CE01 /* MyClass.m */,
 				8D434D1721966F8D00D4CE01 /* MyClass.h */,
+				8D434D1E2196955100D4CE01 /* MyClass+CategoryTest.h */,
+				8D434D1F2196955100D4CE01 /* MyClass+CategoryTest.m */,
 			);
 			path = Objective_CDemo;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D434D202196955100D4CE01 /* MyClass+CategoryTest.m in Sources */,
 				8D434D1621966F6400D4CE01 /* MyClass.m in Sources */,
 				8D434D0F21966BDB00D4CE01 /* main.m in Sources */,
 			);
