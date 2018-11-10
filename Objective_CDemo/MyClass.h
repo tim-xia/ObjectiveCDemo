@@ -11,6 +11,10 @@
 }
 // 类属性声明
 @property NSString * myString;
+@property NSMutableArray *mutArray;
+@property NSArray *unmutArray;
+@property NSMutableDictionary *mutDictionary;
+@property NSDictionary *unmutDictionary;
 // 类方法和声明
 -(void)simpleInstanceMethod:(NSString*) variable3 :(NSString*)variable4;
 +(void)simpleClassMethod:(NSString*) variable1 :(NSString*)variable2;
